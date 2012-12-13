@@ -15,9 +15,7 @@
 
 	<?php echo $form->textFieldRow($model,'bpm_divisi_judul',array('class'=>'span5','maxlength'=>32)); ?>
 
-	
-        <?php echo $form->dropDownListRow($model, 'bpm_id',
-        CHtml::listData(Bpm::model()->findAll(), 'bpm_id','bpm_nama'),array('class'=>'span5')); ?>
+	<?php echo $form->textFieldRow($model,'bpm_id',array('class'=>'span5')); ?>
 
 	<div class="form-actions">
 		<?php $this->widget('bootstrap.widgets.TbButton', array(

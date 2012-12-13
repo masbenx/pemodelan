@@ -31,7 +31,21 @@
                                             'class' => 'bootstrap.widgets.TbMenu',
                                             'items' => array(
                                                     array('label' => 'Home', 'url' => array('/')),
-                                                    array('label'=>'Proyek', 'url'=>array('/proyek')),
+                                                    array('label'=>'Proyek', 'url'=>array('/proyek'),
+                                                    	'items'=>array(
+                                                    		array('label'=>'Proyek Error Lapor', 'url'=>array('/proyek/proyekerrorlapor'), 
+                                                    			'items'=>array(
+                                                    				array('label'=>'Create', 'url'=>array('/proyek/proyekerrorlapor/create'))
+                                                    			),
+                                                    		),
+                                                    		array('label'=>'Proyek Hasil', 'url'=>array('/proyek/proyekhasil')),
+                                                    		array('label'=>'Proyek Status', 'url'=>array('/proyek/proyekstatus')),
+                                                    		array('label'=>'Proyek Sub', 'url'=>array('/proyek/proyeksub')),
+                                                    		array('label'=>'Proyek Type', 'url'=>array('/proyek/proyektype')),
+                                                    		array('label'=>'Proyek Versi', 'url'=>array('/proyek/proyekversi')),
+                                                    		array('label'=>'Proyek Versi Status', 'url'=>array('/proyek/proyekversistatus'))
+                                                    	),
+                                                    ),
                                                     array('label'=>'BPM', 'url'=>array('/bpm'),
                                                         'items'=>array(
                                                                 array('label'=>'BPM Editor', 'url'=>array('/bpm/default/bpmEditor')),

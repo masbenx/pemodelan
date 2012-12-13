@@ -46,8 +46,8 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'bpm_divisi_upline',
 		'bpm_divisi_alias',
 		'bpm_divisi_nama',
-		'bpm_divisi_judul',		
-                array('name'=>'bpm_id','header'=>'Bpm','value'=>'$data->bpm->bpm_nama'),
+		'bpm_divisi_judul',
+		'bpm_id',
 		array(
 			'class'=>'bootstrap.widgets.TbButtonColumn',
 		),

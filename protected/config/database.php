@@ -7,10 +7,10 @@
 return array(	    
         //'pdoClass' => 'NestedPDO',
             'class'=>'CDbConnection',
-            'connectionString' => 'mysql:host=localhost;dbname=senimandigital_dev',
+            'connectionString' => 'mysql:host=localhost;dbname=senimandigital',
 	    'emulatePrepare' => true,
-	    'username' => 'root',
-	    'password' => '',
+	    'username' => 'tarjono',
+	    'password' => 'tarjono',
 	    'charset' => 'utf8',
 	    );
 ?> 

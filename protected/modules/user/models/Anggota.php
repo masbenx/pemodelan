@@ -157,6 +157,7 @@ class Anggota extends CActiveRecord
         }
         
         public function hashPassword($password){
-            return md5($password);
+            //return md5($password);
+            return $password;
         }
 }

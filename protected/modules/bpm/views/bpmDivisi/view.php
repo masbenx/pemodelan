@@ -22,7 +22,7 @@ $this->menu=array(
 		'bpm_divisi_upline',
 		'bpm_divisi_alias',
 		'bpm_divisi_nama',
-		'bpm_divisi_judul',		
-                array('label'=>'Bpm','value'=>$model->bpm->bpm_nama),
+		'bpm_divisi_judul',
+		'bpm_id',
 	),
 )); ?>

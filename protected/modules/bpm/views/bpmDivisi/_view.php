@@ -21,7 +21,7 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('bpm_id')); ?>:</b>
-	<?php echo CHtml::encode($data->bpm->bpm_nama); ?>
+	<?php echo CHtml::encode($data->bpm_id); ?>
 	<br />
 
 

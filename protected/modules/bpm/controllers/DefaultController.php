@@ -13,4 +13,9 @@ class DefaultController extends Controller
         {
             $this->render('bpm_editor');
         }
+        public function actionSaveDiagram()
+        {
+            $xml = $_POST['xml'];
+            echo 'tul';
+        }
 }
